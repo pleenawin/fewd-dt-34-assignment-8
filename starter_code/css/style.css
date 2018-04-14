@@ -68,9 +68,17 @@ a {
   max-width: 960px;
   margin: 0 auto;
 }
+
 .logo {
   font-size: 48px;
   font-weight: 800;
+}
+.flex {
+  display: flex;
+}
+
+.labels {
+  width: 100px;
 }
 
 header {
@@ -114,6 +122,7 @@ header nav ul li a {
 }
 .button {
   border-radius: 5px;
+  border: 0px;
   font-weight: 800;
   padding: 12px 0;
   width: 280px;
@@ -122,6 +131,21 @@ header nav ul li a {
   display: block;
   margin: 0 auto;
 }
+
+#register-btn {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  background: #033048;
+  color: #fff;
+  border-radius: 5px;
+  border: 0px;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 24px;
+  text-align: center;
+  margin:36px 36px 36px 0;
+}
+
 .yellow {
   background: #f9e42e;
   color: #033048;
@@ -139,6 +163,19 @@ h3 {
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 40px;
+}
+h2 {
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.register {
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
 }
 #benefits p, #benefits ul {
   width: 600px;
@@ -267,6 +304,21 @@ blockquote span {
   background: #f9e42e;
   padding: 30px;
   text-align: center;
+}
+
+.inputstyle {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  width: 300px;
+  border: 0;
+  border-bottom: 1px solid #121212;
+  margin-bottom: 16px;
+}
+
+.label {
+  font-size: 16px;
+  margin-top:11px;
+  width: 200px;
 }
 
 footer {

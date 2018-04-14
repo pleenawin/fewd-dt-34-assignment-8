@@ -27,9 +27,75 @@
 		</header>
 		<section id="main">
 			<div class="container">
-				<section id="contact">
-					<input type="submit" value="Register Now!">
-				</section>
+				<h1>Register Now!</h1>
+				<div id="contact">
+					<div class="flex">
+						<section>
+							<p class="label">Name: </p>
+						</section>
+					    <section class="flex-grow">
+							<input type="text" class="inputstyle" placeholder="John Doe">
+						</section>
+					</div>
+					<div class="flex">
+						<section>
+							<p class="label">Email: </p>
+						</section>
+					    <section>
+							<input type="email" class="inputstyle" placeholder="hello@gmail.com">
+						</section>
+					</div>
+					<div class="flex">
+						<section>
+							<p class="label">Phone: </p>
+						</section>
+					    <section >
+							<input type="text" class="inputstyle" placeholder="415-123-4567">
+						</section>
+					</div>
+					<div class="flex">
+						<section>
+							<p class="label">State: </p>
+						</section>
+					    <section>
+							<select class="inputstyle">
+								<option>Select a state</option>
+								<option>Alabama</option>
+								<option>Alaska</option>
+								<option>Arkanasas</option>
+							</select>
+						</section>
+					</div>
+					<div class="flex">
+						<section>
+							<p class="label">Password: </p>
+						</section>
+					    <section class="flex-grow">
+							<input type="password" class="inputstyle" placeholder="Password">
+						</section>
+					</div>
+					<div class="flex">
+						<section>
+							<p class="label">Which service are you interested in? </p>
+						</section>
+					    <section class="flex-grow">
+							<input type="radio" id="relaxing">
+						    <label for="relaxing" class="label">Relaxing</label>
+						    <input type="radio" id="location2">
+						    <label for="email" class="label">Email</label>
+						    <input type="radio" id="phone">
+						    <label for="phone" class="label">Phone</label>
+						</section>
+					</div>
+					<div>
+						<input type="checkbox" id="terms">
+						<label for="terms" class="label">I agree to the terms</label>
+					</div>
+					<div>
+						<input type="submit" id="register-btn" value="Register Now!">
+					</div>
+					</div>
+				</div>
 			</div>
 		</section>
 
